@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator with Number Insights</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="calculator">
+      <div class="display">
+        <div class="expression" id="expression">&nbsp;</div>
+        <div class="result" id="result">0</div>
+      </div>
+
+      <div class="keys">
+        <button class="key fn" data-action="clear">AC</button>
+        <button class="key fn" data-action="delete">DEL</button>
+        <button class="key fn" data-action="percent">%</button>
+        <button class="key op" data-value="/">÷</button>
+
+        <button class="key" data-value="7">7</button>
+        <button class="key" data-value="8">8</button>
+        <button class="key" data-value="9">9</button>
+        <button class="key op" data-value="*">×</button>
+
+        <button class="key" data-value="4">4</button>
+        <button class="key" data-value="5">5</button>
+        <button class="key" data-value="6">6</button>
+        <button class="key op" data-value="-">−</button>
+
+        <button class="key" data-value="1">1</button>
+        <button class="key" data-value="2">2</button>
+        <button class="key" data-value="3">3</button>
+        <button class="key op" data-value="+">+</button>
+
+        <button class="key" data-value="0">0</button>
+        <button class="key" data-value=".">.</button>
+        <button class="key fn" data-action="sign">±</button>
+        <button class="key equals" data-action="equals">=</button>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <header class="panel-header">
+        <h2>Number Insights</h2>
+        <p class="panel-sub">Facts about your latest result</p>
+      </header>
+      <div class="insights" id="insights">
+        <p class="insights-empty">Press = to see facts about the answer.</p>
+      </div>
+
+      <header class="panel-header history-header">
+        <h2>History</h2>
+        <button id="clearHistory" class="link">clear</button>
+      </header>
+      <ul class="history" id="history"></ul>
+    </aside>
+  </main>
+
+  <footer class="hint">Tip: you can use your keyboard too. Enter, Backspace, Esc all work.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
