@@ -1,5 +1,7 @@
 # Calculator
 
+![](docs/screenshot.png)
+
 Small calculator I built one evening. Does the usual math, but I added a little side panel that shows random facts about whatever number you just calculated. Felt like a fun extra.
 
 ## The fun part
