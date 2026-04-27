@@ -1,6 +1,9 @@
 # Calculator
 
-![](docs/screenshot.png)
+<p align="center">
+  <img src="docs/screenshot.png" width="48%"/>
+  <img src="docs/screenshot-2.png" width="48%"/>
+</p>
 
 Small calculator I built one evening. Does the usual math, but I added a little side panel that shows random facts about whatever number you just calculated. Felt like a fun extra.
 
